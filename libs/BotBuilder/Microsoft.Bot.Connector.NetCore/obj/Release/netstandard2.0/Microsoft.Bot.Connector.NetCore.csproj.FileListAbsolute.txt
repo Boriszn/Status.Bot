@@ -1,0 +1,11 @@
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\bin\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.deps.json
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\bin\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.dll
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\bin\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.pdb
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\bin\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.xml
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.csprojResolveAssemblyReference.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.csproj.CoreCompileInputs.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.AssemblyInfoInputs.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.AssemblyInfo.cs
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.dll
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.xml
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.NetCore\obj\Release\netstandard2.0\Microsoft.Bot.Connector.NetCore.pdb
