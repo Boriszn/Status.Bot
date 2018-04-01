@@ -1,0 +1,13 @@
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.deps.json
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.dll
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.pdb
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.NetCore.dll
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.NetCore.pdb
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\bin\Debug\netcoreapp2.0\Microsoft.Bot.Connector.NetCore.xml
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.csprojResolveAssemblyReference.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.csproj.CoreCompileInputs.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.AssemblyInfoInputs.cache
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.AssemblyInfo.cs
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.csproj.CopyComplete
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.dll
+C:\_Projects\Status.Bot\libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\obj\Debug\netcoreapp2.0\Microsoft.Bot.Connector.AspNetCore2.pdb

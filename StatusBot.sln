@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatusBot", "src\StatusBot\StatusBot.csproj", "{5BC593A9-3BE3-474B-A1AD-263CDF966778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BotBuilder", "BotBuilder", "{E7B4C430-B654-4AA3-896C-B10EB24DE1B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Connector.AspNetCore2", "libs\BotBuilder\Microsoft.Bot.Connector.AspNetCore2\Microsoft.Bot.Connector.AspNetCore2.csproj", "{B7863047-2C85-4440-96CB-130E1EC96EB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Connector.NetCore", "libs\BotBuilder\Microsoft.Bot.Connector.NetCore\Microsoft.Bot.Connector.NetCore.csproj", "{73705C88-D15A-49FC-B476-0DF52305963B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Bot.Connector.Shared", "libs\BotBuilder\Microsoft.Bot.Connector.Shared\Microsoft.Bot.Connector.Shared.shproj", "{133E6973-CF90-4691-8685-D42D79C8884B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		libs\BotBuilder\Microsoft.Bot.Connector.Shared\Microsoft.Bot.Connector.Shared.projitems*{133e6973-cf90-4691-8685-d42d79c8884b}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC593A9-3BE3-474B-A1AD-263CDF966778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC593A9-3BE3-474B-A1AD-263CDF966778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC593A9-3BE3-474B-A1AD-263CDF966778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC593A9-3BE3-474B-A1AD-263CDF966778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7863047-2C85-4440-96CB-130E1EC96EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7863047-2C85-4440-96CB-130E1EC96EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7863047-2C85-4440-96CB-130E1EC96EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7863047-2C85-4440-96CB-130E1EC96EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73705C88-D15A-49FC-B476-0DF52305963B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73705C88-D15A-49FC-B476-0DF52305963B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73705C88-D15A-49FC-B476-0DF52305963B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73705C88-D15A-49FC-B476-0DF52305963B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7863047-2C85-4440-96CB-130E1EC96EB8} = {E7B4C430-B654-4AA3-896C-B10EB24DE1B7}
+		{73705C88-D15A-49FC-B476-0DF52305963B} = {E7B4C430-B654-4AA3-896C-B10EB24DE1B7}
+		{133E6973-CF90-4691-8685-D42D79C8884B} = {E7B4C430-B654-4AA3-896C-B10EB24DE1B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C6D48D-25D3-480B-93FC-56B3B85BC5EE}
+	EndGlobalSection
+EndGlobal
