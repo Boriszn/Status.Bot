@@ -1,6 +1,9 @@
-# Status.Bot
+# ![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/msbot-framework-demo.png "Logo Title Text 1") Status.Bot
 
 Bot interface allows to send and receive statuses about GIT repositories and Pull Requests to Skype, Facebook, etc.
+
+![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/StatusBotDiagram.png "Logo Title Text 1")
+
 
 ## Installation
 
