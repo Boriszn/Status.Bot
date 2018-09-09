@@ -5,6 +5,7 @@ using Microsoft.Bot.Connector;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using StatusBot.Constants;
 using StatusBot.DataSources;
 
 namespace StatusBot.Services
@@ -37,17 +38,17 @@ namespace StatusBot.Services
 
                 switch (message)
                 {
-                    case var _ when message.Contains("info") is true:
+                    case var _ when message.Contains(GeneralConstants.InfoMessage) is true:
                         message = await gitHubRepository.GetUserInfo();
                         break;
-                    case var _ when message.Contains("my issues") is true:
+                    case var _ when message.Contains(GeneralConstants.MyIssuesMessage) is true:
                         message = await gitHubRepository.GetCurrentUserIssuesInfoString();
                         break;
-                    case var _ when message.Contains("issues") is true:
+                    case var _ when message.Contains(GeneralConstants.IssuesMessage) is true:
                         message = await gitHubRepository.GetUserIssuesInfoString();
                         break;
                     default:
-                         message = $"I don't know about that ....";
+                         message = GeneralConstants.DefaultMessage;
                         break;
                 }
 

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Octokit;
 using StatusBot.Configuration;
+using StatusBot.Constants;
 
 namespace StatusBot.DataSources
 {
@@ -47,7 +48,7 @@ namespace StatusBot.DataSources
             {
                 Filter = IssueFilter.All,
                 State = ItemStateFilter.All,
-                Since = DateTimeOffset.Now.Subtract(TimeSpan.FromDays(160))
+                Since = DateTimeOffset.Now.Subtract(TimeSpan.FromDays(GeneralConstants.IssuesByDays))
             };
 
             IReadOnlyList<Issue> issues = await client.Issue.GetAllForCurrent(recently);
@@ -69,7 +70,7 @@ namespace StatusBot.DataSources
             {
                 Filter = IssueFilter.All,
                 State = ItemStateFilter.All,
-                Since = DateTimeOffset.Now.Subtract(TimeSpan.FromDays(160))
+                Since = DateTimeOffset.Now.Subtract(TimeSpan.FromDays(GeneralConstants.IssuesByDays))
             };
 
             IReadOnlyList<Issue> issues = await client.Issue.GetAllForOwnedAndMemberRepositories(recently);

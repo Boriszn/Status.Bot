@@ -18,7 +18,7 @@ namespace StatusBot.Controllers
         /// Initializes a new instance of the <see cref="MessagesController"/> class.
         /// </summary>
         /// <param name="messageService">The message service.</param>
-        public MessagesController(/*IConfiguration configuration*/ 
+        public MessagesController(
             IMessageService messageService)
         {
             this.messageService = messageService;
@@ -33,7 +33,7 @@ namespace StatusBot.Controllers
         [HttpPost]
         public virtual async Task<OkResult> Post([FromBody]Activity activity)
         {
-            messageService.HandleMessages(activity);
+            this.messageService.HandleMessages(activity);
 
             return Ok();
         }
