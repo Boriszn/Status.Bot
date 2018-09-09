@@ -10,7 +10,7 @@ Bot interface allows to send and receive statuses about GIT repositories and Pul
 4. Build Or Run project
 5. Testing. Download and Run [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator). Follow instructions for [local development](https://github.com/Microsoft/BotFramework-Emulator/wiki/Getting-Started#connect-to-a-bot-running-on-localhost). Example below:
 
-![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/add-github-integration/assets/img/BotLocalEmulator.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/BotLocalEmulator.png "Logo Title Text 1")
 
 6.Deploy to azure
 
