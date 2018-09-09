@@ -1,6 +1,9 @@
-# Status.Bot
+# ![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/msbot-framework-demo.png "Logo Title Text 1") Status.Bot
 
 Bot interface allows to send and receive statuses about GIT repositories and Pull Requests to Skype, Facebook, etc.
+
+![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/StatusBotDiagram.png "Logo Title Text 1")
+
 
 ## Installation
 
@@ -8,8 +11,11 @@ Bot interface allows to send and receive statuses about GIT repositories and Pul
 2. Create Bot Service in Azure. Instructions can be found in [Wiki page](https://github.com/Boriszn/Status.Bot/wiki).
 3. Update in `appsettings.json` your _MicrosoftAppId_ and _MicrosoftAppPassword_
 4. Build Or Run project
-4.1 (_step in progress_) Run [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator)
-5. Deploy to azure
+5. Testing. Download and Run [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator). Follow instructions for [local development](https://github.com/Microsoft/BotFramework-Emulator/wiki/Getting-Started#connect-to-a-bot-running-on-localhost). Example below:
+
+![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/BotLocalEmulator.png "Logo Title Text 1")
+
+6.Deploy to azure
 
 ## Dependencies info
 

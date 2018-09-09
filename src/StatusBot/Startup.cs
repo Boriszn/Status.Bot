@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using StatusBot.Configuration;
+using StatusBot.DataSources;
+using StatusBot.Services;
 
 namespace StatusBot
 {
@@ -25,6 +28,11 @@ namespace StatusBot
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<AuthenticationOption>(Configuration.GetSection("Authentication"));
+
+            /*
+             * Bot Framework authentication configuration 
+             */
             var msAppIdKey = Configuration.GetSection(MicrosoftAppCredentials.MicrosoftAppIdKey)?.Value;
             var msAppPwdKey = Configuration.GetSection(MicrosoftAppCredentials.MicrosoftAppPasswordKey)?.Value;
 
@@ -39,6 +47,12 @@ namespace StatusBot
             {
                 o.Filters.Add(typeof(TrustServiceUrlAttribute));
             });
+
+            /*
+             * IOC configuration 
+             */
+            services.AddTransient<IMessageService, MessageService>();
+            services.AddTransient<IGitHubRepository, GitHubRepository>();
 
             services.AddMvc();
         }
