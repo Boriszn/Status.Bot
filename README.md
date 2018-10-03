@@ -1,8 +1,8 @@
-# ![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/msbot-framework-demo.png "Logo Title Text 1") Status.Bot
+# ![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/master/assets/img/msbot-framework-demo.png "Logo Title Text 1") Status.Bot
 
 Bot interface allows to send and receive statuses about GIT repositories and Pull Requests to Skype, Facebook, etc.
 
-![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/feature/github-intergration/assets/img/StatusBotDiagram.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/Boriszn/Status.Bot/master/assets/img/StatusBotDiagram.png "Logo Title Text 1")
 
 
 ## Installation
@@ -23,7 +23,7 @@ Current solution dependent to project which was retrieved from [Microsoft BotBui
 
 ## Integrations
 
-* *Telegramm* - integrated/worked
+* *Telegram* - integrated/worked
 * *Facebook* - currently impossible (Facebook closed access to the development API)
 * *Skype* - In progress
 
